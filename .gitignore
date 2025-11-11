@@ -1,0 +1,68 @@
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs and runtime
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# PowerShell / Windows-related
+*.ps1~
+*.psm1~
+*.psd1~
+*.cmd~
+*.bat~
+*.reg~
+
+# Python (if you ever go there)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Node (if you ever touch frontend stuff)
+node_modules/
+
+# Env / secrets
+.env
+*.env.*
+*.key
+*.crt
+*.pem
+secrets.json
+
+# Output folders
+dist/
+build/
+out/
+
+# Disk images / VMs
+*.iso
+*.vmdk
+*.vhd
+*.qcow2
+*.img
+
+# Git
+*.orig
+*.rej
+
+# Misc
+*.old
+*.backup
+*.zip
+*.7z
+*.rar
