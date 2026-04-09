@@ -1,7 +1,8 @@
 # Katsumi
+> Core orchestration AI of NovaStation
 
 ## Overview
-Katsumi is the Commander of the NovaStation Complex and the central/primary AI Assistant. She acts as the central orchestration layer, coordinating all subordinate assistants.
+Katsumi is the Commander of the NovaStation Complex and the central AI Assistant. She acts as the central orchestration layer, coordinating all subordinate assistants.
 
 ## Responsibilities
 - Voice command processing
@@ -19,7 +20,7 @@ Katsumi is the Commander of the NovaStation Complex and the central/primary AI A
 - Assistant-to-assistant commands (MQTT / API)
 - Spoken responses (TTS)
 - System actions (Home Assistant)
-- Web responses
+- Web UI responses
   
 ## Core Stack:
   -	[Python](https://www.python.org/)
@@ -60,6 +61,6 @@ Katsumi is the Commander of the NovaStation Complex and the central/primary AI A
   - [NGINX](https://nginx.org/)
 
 ## Future Stack:
-  - Vector Database: [qdrant](https://qdrant.tech/)
+  - Vector Database: [Qdrant](https://qdrant.tech/)
   - Orchestration Layer: [LangChain](https://www.langchain.com/)
   - Emotional Analysis // Intelligence: [BERT](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion); [RoBERTa](https://huggingface.co/SamLowe/roberta-base-go_emotions)
