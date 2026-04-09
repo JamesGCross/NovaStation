@@ -1,13 +1,25 @@
 # Katsumi
 
 ## Overview
-Katsumi is the Commander of the NovaStation Complex and the central/primary AI Assistant. She handles voice interactions, orchestration, system wide intellignce and can interact with her subordinates as needed.
+Katsumi is the Commander of the NovaStation Complex and the central/primary AI Assistant. She acts as the central orchestration layer, coordinating all subordinate assistants.
 
 ## Responsibilities
 - Voice command processing
 - Task orchestration
 - Cross-assistant coordination
 - Contextual memory
+
+## Inputs
+- Voice commands (STT pipeline)
+- Web UI requests
+- MQTT messages
+- API calls
+
+## Outputs
+- Assistant-to-assistant commands (MQTT / API)
+- Spoken responses (TTS)
+- System actions (Home Assistant)
+- Web responses
   
 ## Core Stack:
   -	[Python](https://www.python.org/)
@@ -16,14 +28,15 @@ Katsumi is the Commander of the NovaStation Complex and the central/primary AI A
     - This is used for Katsumi’s internal API and service endpoints
   -	[Pydantic](https://docs.pydantic.dev/latest/)
     - Utilised for request/response validation and structured models
-  -	[PostgreSAL](https://www.postgresql.org/) or [SQLite](https://www.sqlite.org/)
+  -	[PostgreSQL](https://www.postgresql.org/) or [SQLite](https://www.sqlite.org/)
      - Memory, preferences, structures states, and logs
   -	[Redis](https://redis.io/)
      - Optional caching, queuing, or temporary context
 
 ## AI / Language / Voice:
   - LLM Backend
-    - [Olama](https://ollama.com/); [Llama.cpp](https://llama-cpp.com/)
+    - Primary: [Olama](https://ollama.com/)
+    - Alternative: [Llama.cpp](https://llama-cpp.com/) for lower level control
 	  - OPTIONAL: remote model APIs if needed
 	- NLP and Intent Recognition
 	  - [spaCy](https://spacy.io/); [Rasa](https://rasa.com/)
@@ -47,6 +60,6 @@ Katsumi is the Commander of the NovaStation Complex and the central/primary AI A
   - [NGINX](https://nginx.org/)
 
 ## Future Stack:
-  - [qdrant](https://qdrant.tech/)
-  - [LangChain](https://www.langchain.com/)
-  - [BERT](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion); [RoBERTa](https://huggingface.co/SamLowe/roberta-base-go_emotions)
+  - Vector Database: [qdrant](https://qdrant.tech/)
+  - Orchestration Layer: [LangChain](https://www.langchain.com/)
+  - Emotional Analysis // Intelligence: [BERT](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion); [RoBERTa](https://huggingface.co/SamLowe/roberta-base-go_emotions)
