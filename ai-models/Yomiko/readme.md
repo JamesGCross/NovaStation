@@ -18,13 +18,14 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 - Web UI requests
 
 ## Outputs
-- [Jellyfin](https://jellyfin.org/) or [Plex](https://watch.plex.tv/) - Playback Control
+- [Jellyfin](https://jellyfin.org/) or [Plex](https://watch.plex.tv/) - playback Control
 - Media state updates
 - Web UI responses
 
 ## Core Stack
 - [Python](https://www.python.org/)
 - [FastAPI](https://fastapi.tiangolo.com/)
+- [PostgreSQL](https://www.postgresql.org/) or [SQLite](https://www.sqlite.org/)
 
 ## Media Systems
 - Jellyfin or Plex
@@ -38,6 +39,7 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 
 
 ## Future Stack
-- Recommendation engine
-- Watch history analysis
-- Smart playlists
+- Watch history tracking
+- Media usage analytics
+- Enhanced metadata-driven filtering
+- Custom web frontend via [React](https://react.dev/) or [Next.js](https://nextjs.org/)
