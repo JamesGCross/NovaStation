@@ -7,18 +7,18 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 
 ## Responsibilities
 - Media playback control
-- Library management
-- Session tracking
-- Metadata management
+- Media library management
+- Session tracking and state management
+- Metadata indexing and management
 
 ## Inputs
 - Commands from Katsumi (API / MQTT)
-- Voice commands (routed via voice router / Katsumi)
+- Voice commands (via voice router / Katsumi)
 - Optional direct invocation ("Yomiko" or "NIS")
 - Web UI requests
 
 ## Outputs
-- [Jellyfin](https://jellyfin.org/) or [Plex](https://watch.plex.tv/) - playback Control
+- [Jellyfin](https://jellyfin.org/) or [Plex](https://watch.plex.tv/) - playback control
 - Media state updates
 - Web UI responses
 
