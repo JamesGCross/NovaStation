@@ -24,12 +24,15 @@ Primary Defence Authority (PDA) Nami is responsible for the enforcement and gove
 - Direct user invocation via voice interface ("Nami")
 - Newly detected or integrated devices triggering admission control evaluation
 - System state changes impacting security posture (e.g., network status, power state)
-
+ 
 ## Outputs
-- Alerts and notifications
-- Security Logs
-- Access Control commands
-- Security status updates
+- Authorisation responses (allow, deny, or require confirmation) for security-sensitive actions
+- Device control signals to security systems (locks, sensors, alarms)
+- Security state updates and transitions (e.g., Green → Orange → Red)
+- Security alerts and notifications
+- Verbal security warnings for unauthorized access attempts ("This is Primary Security Authority Nami. Cease any further access attempts at <location>. This is your ONLY warning.")
+- Camera recording triggers and security feed routing to designated displays
+- Security audit logs (who, what, when, where, why) with timestamps
 
 ## Security State Model
 - Normal (CODE: Green)
