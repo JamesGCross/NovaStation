@@ -31,6 +31,12 @@ Primary Defence Authority (PDA) Nami is responsible for the enforcement and gove
 - Access Control commands
 - Security status updates
 
+## Security State Model
+- Normal (CODE: Green)
+- Armed (CODE: Yellow)
+- Alert (CODE: Orange)
+- Breach (CODE: Red)
+
 ## Core Stack
 - Python
 - FastAPI
