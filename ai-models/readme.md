@@ -1,4 +1,6 @@
-# AI Models - NovaStation
+# AI Models - NovaStation 
+
+✅ Active
 
 NovaStation utilises a distributed AI architecture consisting of specialised assistants:
 
