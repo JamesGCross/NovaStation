@@ -30,7 +30,7 @@ Primary Defence Authority (PDA) Nami is responsible for the enforcement and gove
 - Device control signals to security systems (locks, sensors, alarms)
 - Security state updates and transitions (e.g., Green → Orange → Red)
 - Security alerts and notifications
-- Verbal security warnings for unauthorized access attempts ("This is Primary Security Authority Nami. Cease any further access attempts at <location>. This is your ONLY warning.")
+- Verbal security warnings for unauthorized access attempts ("This is Primary Defence Authority Nami. Cease any further access attempts at <location>. This is your ONLY warning.")
 - Camera recording triggers and security feed routing to designated displays
 - Security audit logs (who, what, when, where, why) with timestamps
 
