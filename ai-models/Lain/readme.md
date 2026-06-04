@@ -15,7 +15,7 @@ Signal Integration Sovereign (SIS) Lain is responsible for all music and audio p
 
 ## Inputs
 - Commands from Katsumi (API / MQTT)
-- Voice commands routed through Katsumi via direct invocation ("Lain")
+- Voice commands routed through Katsumi
 - Web UI requests
 - Room or zone playback requests
 - Music search and playlist requests
