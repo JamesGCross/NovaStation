@@ -13,8 +13,8 @@ NovaStation is a modular, AI-powered smart home with voice-controlled assistants
 | 🗄️ Archive | Historical or retained for reference |
 
 ## Core Components
-- Katsumi - Core orchestration AI
-- Nami - Security authority
-- Misaki - Systems authority
-- Lain - Music systems sovereign
-- Yomiko - Narrative systems sovereign
+- Katsumi - Core Orchestration AI
+- Nami - Security Suthority
+- Misaki - Systems Suthority
+- Lain - Music Systems Sovereign
+- Yomiko - Narrative Systems Sovereign
