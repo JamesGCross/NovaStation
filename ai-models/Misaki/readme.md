@@ -58,7 +58,7 @@ Primary Systems Authority (PSA) Misaki is responsible for the governance and ope
 -	[SQLite](https://www.sqlite.org/)
 - [Docker](https://www.docker.com/)
 - [NGINX](https://nginx.org/)
-- [Linux (Void)](https://voidlinux.org/)
+- [Void Linux](https://voidlinux.org/)
 
 # Systems Operations
 - [Prometheus](https://prometheus.io/)
