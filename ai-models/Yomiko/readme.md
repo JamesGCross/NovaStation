@@ -8,38 +8,48 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 ## Responsibilities
 - Media playback control
 - Media library management
-- Session tracking and state management
+- Playback session tracking and state management
 - Metadata indexing and management
+- Content discovery and retrieval
 
 ## Inputs
-- Commands from Katsumi (API / MQTT)
-- Voice commands (via voice router / Katsumi)
-- Optional direct invocation ("Yomiko" or "NIS")
-- Web UI requests
+- Media playback requests
+- Content search and retrieval requests
+- Library management requests
+- Session state updates
+- Metadata updates and indexing events
+- Commands from Katsumi via direct invocation ("Yomiko")
+- Web UI interactions
 
 ## Outputs
-- [Jellyfin](https://jellyfin.org/) or [Plex](https://watch.plex.tv/) - playback control
-- Media state updates
+- Playback control signals to Jellyfin
+- Media state and session updates
+- Library status and metadata updates
+- Search and retrieval results
+- Content availability notifications
 - Web UI responses
+- Error and status responses
 
 ## Core Stack
 - [Python](https://www.python.org/)
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [PostgreSQL](https://www.postgresql.org/) or [SQLite](https://www.sqlite.org/)
+- [SQLite](https://www.sqlite.org/)
+- [Jellyfin](https://jellyfin.org/)
+- [MQTT](https://mqtt.org/)
 
 ## Media Systems
-- Jellyfin or Plex
+- Jellyfin API
 - TMDb / metadata APIs
 - [FFmpeg](https://ffmpeg.org/)
 
 ## Infrastructure and Deployment
 - [Docker](https://www.docker.com/)
 - [NGINX](https://nginx.org/)
-- [MQTT](https://mqtt.org/)
-
 
 ## Future Stack
 - Watch history tracking
 - Media usage analytics
 - Enhanced metadata-driven filtering
-- Custom web frontend via [React](https://react.dev/) or [Next.js](https://nextjs.org/)
+- Recommendation engine
+- Collection and playlist automation
+- Custom web frontend via [Next.js](https://nextjs.org/)
