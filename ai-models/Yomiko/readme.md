@@ -35,7 +35,7 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [SQLite](https://www.sqlite.org/)
 - [Jellyfin](https://jellyfin.org/)
-- [MQTT](https://mqtt.org/)
+- [MQTT](https://mqtt.org/) // [Mosquitto](https://mosquitto.org/)
 
 ## Media Systems
 - Jellyfin API
