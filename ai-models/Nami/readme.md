@@ -41,21 +41,21 @@ Primary Defence Authority (PDA) Nami is responsible for the enforcement and gove
 - Breach (CODE: Red)
 
 ## Core Stack
-- Python
-- FastAPI
+-	[Python](https://www.python.org/)
+-	[FastAPI](https://fastapi.tiangolo.com/)
+- [Home Assistant](https://www.home-assistant.io/)
+- [MQTT](https://mqtt.org/) // [Mosquitto](https://mosquitto.org/)
+-	[SQLite](https://www.sqlite.org/)
 
 ## Security Systems
-- Home Assistant
-- MQTT / Mosquitto
-- Frigate (optional)
-- ESPHome
+- [Frigate](https://docs.frigate.video/) (optional)
+- [ESPHome](https://esphome.io/)
 
 ## Infrastructure and Deployment
-- Docker
-- VLAN segmentation
-- Nginx
+- [Docker](https://www.docker.com/)
+- [NGINX](https://nginx.org/)
 
 ## Future Stack
 - Computer vision enhancements
-- Behavioral anomaly detection
+- Behavioural anomaly detection
 - Network-level security integration
