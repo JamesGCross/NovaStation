@@ -41,12 +41,10 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
     - Utilised for request/response validation and structured models
   -	[SQLite](https://www.sqlite.org/)
      - Memory, preferences, structures states, and logs
-  -	[Redis](https://redis.io/)
-     - Optional caching, queuing, or temporary context
 
 ## AI / Language / Voice:
   - LLM Backend
-    - Primary: [Olama](https://ollama.com/)
+    - Primary: [Ollama](https://ollama.com/)
     - Alternative: [Llama.cpp](https://llama-cpp.com/) for lower level control
 	  - OPTIONAL: remote model APIs if needed
 	- NLP and Intent Recognition
@@ -65,10 +63,10 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
 - [ESPHome](https://esphome.io/) for custom sensors/mics/switches
 
 ## Infrastructure and Deployment:
-  - [Void Linux](https://voidlinux.org/)
-  - [Docker](https://www.docker.com/)
-  - [Docker Compose](https://docs.docker.com/compose/)
-  - [NGINX](https://nginx.org/)
+- [Void Linux](https://voidlinux.org/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [NGINX](https://nginx.org/)
 
 ## Future Stack:
 - Long-term memory and semantic retrieval
@@ -79,3 +77,5 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
 - Vector Database: [Qdrant](https://qdrant.tech/)
 - Orchestration Layer: [LangChain](https://www.langchain.com/)
 - Emotional Analysis // Intelligence: [BERT](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion); [RoBERTa](https://huggingface.co/SamLowe/roberta-base-go_emotions)
+- [Redis](https://redis.io/)
+  - Optional caching, queuing, or temporary context
