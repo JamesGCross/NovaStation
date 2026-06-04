@@ -52,20 +52,20 @@ Primary Systems Authority (PSA) Misaki is responsible for the governance and ope
 - Critical — immediate intervention required
 
 # Core Stack
-- Python
-- FastAPI
-- MQTT / Mosquitto
-- Linux (Void)
-- Docker
-- SQLite
-- Nginx
+-	[Python](https://www.python.org/)
+-	[FastAPI](https://fastapi.tiangolo.com/)
+- [MQTT](https://mqtt.org/) // [Mosquitto](https://mosquitto.org/)
+-	[SQLite](https://www.sqlite.org/)
+- [Docker](https://www.docker.com/)
+- [NGINX](https://nginx.org/)
+- [Linux (Void)](https://voidlinux.org/)
 
 # Systems Operations
-- Prometheus
-- Grafana 
-- Syslog
-- Home Assistant
-
+- [Prometheus](https://prometheus.io/)
+- [Grafana](https://grafana.com/) 
+- [rsyslog](https://www.rsyslog.com/)
+- [Home Assistant](https://www.home-assistant.io/)
+  
 # Future Stack
 - Predictive fault detection
 - Capacity forecasting
