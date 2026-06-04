@@ -31,7 +31,7 @@ Signal Integration Sovereign (SIS) Lain is responsible for all music and audio p
 - [Python](https://www.python.org/)
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Navidrome](https://www.navidrome.org/)
-- [MQTT](https://mqtt.org/)
+- [MQTT](https://mqtt.org/) // [Mosquitto](https://mosquitto.org/)
 - [Subsonic API](https://www.subsonic.org/pages/api.jsp)
 - [SQLite](https://sqlite.org/)
 
