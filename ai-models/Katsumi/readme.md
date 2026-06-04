@@ -58,8 +58,7 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
 
 ## Home Automation and Coordination:
 - [Home Assistant](https://www.home-assistant.io/)
-- [MQTT](https://mqtt.org/)
-- [Mosquitto](https://mosquitto.org/)
+- [MQTT](https://mqtt.org/) // [Mosquitto](https://mosquitto.org/)
 - [ESPHome](https://esphome.io/) for custom sensors/mics/switches
 
 ## Infrastructure and Deployment:
