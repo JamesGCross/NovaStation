@@ -37,7 +37,7 @@ Signal Integration Sovereign (SIS) Lain is responsible for all music and audio p
 
 ## Music Systems
 - [FFmpeg](https://ffmpeg.org/)
-- [PipeWire](https://pipewire.org/) / [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/?__goaway_challenge=meta-refresh&__goaway_id=a9a65b70e9f8d290a7177f0de30f649e&__goaway_referer=https%3A%2F%2Fwww.google.com%2F)
+- [PipeWire](https://pipewire.org/) // [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio/?__goaway_challenge=meta-refresh&__goaway_id=a9a65b70e9f8d290a7177f0de30f649e&__goaway_referer=https%3A%2F%2Fwww.google.com%2F)
 - [Snapcast](https://github.com/snapcast/snapcast) (optional multi-room synchronised audio)
 - Queue and playback control
 
