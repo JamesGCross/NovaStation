@@ -8,19 +8,29 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
 - Voice command processing
 - Task orchestration
 - Cross-assistant coordination
-- Contextual memory
+- Contextual memory and conversation continuity
+- Intent recognition and routing
+- Context management
+- Assistant delegation
+- User interaction management
 
 ## Inputs
 - Voice commands (STT pipeline)
 - Web UI requests
 - MQTT messages
 - API calls
+- Responses from subordinate assistants
+- System status events
+- Security authorisation responses from Nami
+- Operational health reports from Misaki
 
 ## Outputs
 - Assistant-to-assistant commands (MQTT / API)
 - Spoken responses (TTS)
 - System actions (Home Assistant)
 - Web UI responses
+- Event bus publications
+- Assistant routing decisions
   
 ## Core Stack:
   -	[Python](https://www.python.org/)
@@ -29,7 +39,7 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
     - This is used for Katsumi’s internal API and service endpoints
   -	[Pydantic](https://docs.pydantic.dev/latest/)
     - Utilised for request/response validation and structured models
-  -	[PostgreSQL](https://www.postgresql.org/) or [SQLite](https://www.sqlite.org/)
+  -	[SQLite](https://www.sqlite.org/)
      - Memory, preferences, structures states, and logs
   -	[Redis](https://redis.io/)
      - Optional caching, queuing, or temporary context
@@ -55,12 +65,17 @@ Katsumi is the Commander of the NovaStation Complex and the central AI Assistant
 - [ESPHome](https://esphome.io/) for custom sensors/mics/switches
 
 ## Infrastructure and Deployment:
-  - [Ubuntu Server](https://ubuntu.com/download/server)
+  - [Void Linux](https://voidlinux.org/)
   - [Docker](https://www.docker.com/)
   - [Docker Compose](https://docs.docker.com/compose/)
   - [NGINX](https://nginx.org/)
 
 ## Future Stack:
-  - Vector Database: [Qdrant](https://qdrant.tech/)
-  - Orchestration Layer: [LangChain](https://www.langchain.com/)
-  - Emotional Analysis // Intelligence: [BERT](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion); [RoBERTa](https://huggingface.co/SamLowe/roberta-base-go_emotions)
+- Long-term memory and semantic retrieval
+- Advanced orchestration workflows
+- Emotional context modelling
+- Multi-user preference management
+- Autonomous task planning
+- Vector Database: [Qdrant](https://qdrant.tech/)
+- Orchestration Layer: [LangChain](https://www.langchain.com/)
+- Emotional Analysis // Intelligence: [BERT](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion); [RoBERTa](https://huggingface.co/SamLowe/roberta-base-go_emotions)
