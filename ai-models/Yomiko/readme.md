@@ -18,7 +18,7 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 - Library management requests
 - Session state updates
 - Metadata updates and indexing events
-- Commands from Katsumi via direct invocation ("Yomiko")
+- Commands from Katsumi
 - Web UI interactions
 
 ## Outputs
@@ -51,5 +51,5 @@ Narrative Integration Sovereign (NIS) Yomiko oversees NovaStation’s visual med
 - Media usage analytics
 - Enhanced metadata-driven filtering
 - Recommendation engine
-- Collection and playlist automation
+- Collection and watchlist automation
 - Custom web frontend via [Next.js](https://nextjs.org/)
