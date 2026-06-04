@@ -19,7 +19,7 @@ Primary Defence Authority (PDA) Nami is responsible for the enforcement and gove
 ## Inputs
 - Sensor events and state updates (via MQTT)
 - Camera event streams and detection events
-- Executes requests from Katsumi for security-sensitive actions
+- Security-sensitive action requests from Katsumi
 - User-initiated security actions via web UI
 - Direct user invocation via voice interface ("Nami")
 - Newly detected or integrated devices triggering admission control evaluation
@@ -59,3 +59,6 @@ Primary Defence Authority (PDA) Nami is responsible for the enforcement and gove
 - Computer vision enhancements
 - Behavioural anomaly detection
 - Network-level security integration
+- Identity and access policy engine
+- Temporary guest access workflows
+- Multi-factor physical access control
